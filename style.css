@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1E90FF; /* Light blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header .logo p {
+    margin: 0;
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFA500; /* Orange */
+    color: white;
+}
+
+.mission {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+.mission h2 {
+    color: #1E90FF;
+}
+
+.services {
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services .service {
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.services .service h3 {
+    color: #FFA500;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1E90FF;
+    color: white;
+}
+
+footer .social-links {
+    list-style: none;
+    padding: 0;
+}
+
+footer .social-links li {
+    display: inline;
+    margin: 0 5px;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+}
